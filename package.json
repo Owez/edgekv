@@ -2,6 +2,7 @@
   "name": "edgekv",
   "version": "1.0.2",
   "description": "EdgeKV helper library",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
