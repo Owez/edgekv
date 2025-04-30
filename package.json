@@ -4,7 +4,9 @@
   "description": "EdgeKV helper library",
   "type": "module",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "scripts": {
+    "build:types": "rm -rf types/ && npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly --outDir types",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
