@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": "types",
+        "module": "commonjs",
+        "target": "esnext",
+        "strict": false,
+        "esModuleInterop": true
+    },
+    "include": [
+        "*.js"
+    ]
+}

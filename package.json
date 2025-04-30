@@ -6,7 +6,7 @@
   "main": "index.js",
   "types": "types/index.d.ts",
   "scripts": {
-    "build:types": "rm -rf types/ && npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly --outDir types",
+    "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/akamai/edgekv/issues"
   },
-  "homepage": "https://github.com/akamai/edgekv#readme"
+  "homepage": "https://github.com/akamai/edgekv#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
